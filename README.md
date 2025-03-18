@@ -10,7 +10,8 @@ Repositório para desenvolvimento de projeto de estágio obrigatório do DCOMP d
   - se não for use o comando 'sudo chown $(whoami):$(whoami) pubspec.lock' ou 'sudo chown -R $(whoami):$(whoami) .'
   - rode o comando 'flutter pub get' no terminal novamente
 - Comando para rodar o flutter no Chrome
-  - flutter run -d chrome --web-port=7000
+  - flutter run -d chrome --web-port=7000 (rodar na pasta frontend)
+  - ou pela opção de 'Run and Debug (Ctrl+Shift+D)' se estiver utilizando o VSCode (mais recomendado)
 
 
 ## Para rodar o python
@@ -21,7 +22,7 @@ Repositório para desenvolvimento de projeto de estágio obrigatório do DCOMP d
   - ainda no 'backend' onde está localizado o arquivo 'pyproject.toml'
   - rode 'poetry install' no terminal para instalar todas as dependências
 - Comando para rodar o backend do projeto utilizando o poetry e uvicorn
-  - poetry run uvicorn app.main:app --reload
+  - poetry run uvicorn app.main:app --reload (rodar na pasta backend)
 
 ## Para rodar o LabComunica
 - Para rodar o projeto você deve ter instalado o PostgreSQL;
