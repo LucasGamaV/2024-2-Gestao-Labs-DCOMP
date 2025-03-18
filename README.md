@@ -4,12 +4,12 @@ Repositório para desenvolvimento de projeto de estágio obrigatório do DCOMP d
 
 ## Para rodar o flutter
 - Baixar as dependências especificadas no arquivo pubspec.yaml
-- - flutter pub get
+  - flutter pub get
 - Comando para rodar o flutter no Chrome
-- - flutter run -d chrome --web-port=7000
+  - flutter run -d chrome --web-port=7000
 
 ## Para rodar o python
 - Instalar as dependências especificadas no poetry
-- - poetry install
+  - poetry install
 - Comando para rodar o backend do projeto utilizando o poetry e uvicorn
-- - poetry run uvicorn app.main:app --reload
+  - poetry run uvicorn app.main:app --reload
